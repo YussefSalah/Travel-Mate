@@ -1,0 +1,1 @@
+1. Add validation in the controller to check if `user` exists before accessing `user.id`. 2. Implement proper authentication middleware to ensure the `user` object is populated for authenticated routes. 3. Return a 401 Unauthorized response if the user is not authenticated.
